@@ -1,3 +1,4 @@
-module.exports = {
-	"extends": "stylelint-config-standard-scss"
-}
+/** @type {import('stylelint').Config} */
+export default {
+  extends: 'stylelint-config-standard-scss',
+};
